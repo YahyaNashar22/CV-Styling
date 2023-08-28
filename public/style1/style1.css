@@ -1,0 +1,10 @@
+header div{
+    display: flex;
+    color: red;
+}
+#contact{
+    position: absolute;
+    top: 1em;
+    display: flex;
+    color:red;
+}
