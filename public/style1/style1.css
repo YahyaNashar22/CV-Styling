@@ -1,10 +1,37 @@
-header div{
-    display: flex;
-    color: red;
+  header{
+    height: 40vh;
+  }
+  header div{
+    display:flex;
+  }
+  .content{
+    display: grid;
+    column-gap: 2%;
+    row-gap: 5%;
+    grid-template-columns: 48% 48%;
+    grid-template-rows: 35% 35% 10%;
+    grid-template-areas:  "#about #competencies"
+                          "#experience #education"
+                          "#hobbies #contact"
 }
 #contact{
     position: absolute;
-    top: 1em;
+    top:2rem;
+    right: 0;
+    width: 30rem;
+    line-height: 0.1rem;
+}
+#contact h3 {
+    display: none;
+}
+.contacts{
     display: flex;
-    color:red;
+    flex-direction: column;
+}
+.contacts dl {
+    display: flex;
+    align-items: start;
+}
+.contact-type{
+    width:10rem;
 }
