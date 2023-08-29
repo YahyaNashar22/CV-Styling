@@ -1,16 +1,35 @@
 *{
-    margin: 1rem;
+    margin: 2rem;
     padding: 0;
     box-sizing: border-box;
 }
 h1{
-    font-size: larger;
+    font-size: 48px;
 }
 h2{
     display: none;
 }
+figure{
+    rotate: -20deg;
+}
+figure > img{
+    width: 12rem;
+    position: absolute;
+    right: 5rem;
+    top:-7rem;
+}
 header > div{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    border-bottom: solid 1px lightgrey;
+    height: 8rem;
 }
+#about > h3{
+    display: none;
+}
+#about{
+    opacity: 0.7;
+    width: 60%;
+}
+/* end of Header */
