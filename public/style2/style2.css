@@ -1,0 +1,16 @@
+*{
+    margin: 1rem;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: larger;
+}
+h2{
+    display: none;
+}
+header > div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

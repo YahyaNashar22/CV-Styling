@@ -19,7 +19,7 @@
       padding-left: 2rem;
   }
   .content{
-    margin:2rem 15rem 10rem 15rem;
+    margin:2rem 10% 10rem 10%;
     display: grid;
     row-gap: 5%;
     grid-template-columns: 48% 48%;
@@ -32,7 +32,7 @@
     position: absolute;
     top:1.5rem;
     right: 0;
-    width: 50rem;
+    width: 40%;
     line-height: 1.5rem;
     background-color: black;
 }
@@ -136,7 +136,7 @@ padding-left: 4rem;
 
 /* Start of mobile device design */
 
-@media (max-width:1170px){
+@media (max-width:600px){
   *{
     margin:0;
     padding: 0;
@@ -168,11 +168,11 @@ padding-left: 4rem;
   }
 
 }
-/* @media(min-width:1170px) and (max-width:1800px){
+ @media(min-width:600px) and (max-width:1800px){
   header div{
     display:flex;
     align-items: center;
     position: absolute;
     left:2rem;
   }
-} */
+}
