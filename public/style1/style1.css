@@ -66,6 +66,25 @@
   background-color: red;
   padding: 0.4rem;
   color:white;
+  display: block;
+}
+[data-skill="5"]>span{
+  width: 50%;
+}
+[data-skill="3"]>span{
+  width: 30%;
+}
+[data-skill="1"]>span{
+  width: 10%;
+}
+[data-skill="9"]>span{
+  width: 90%;
+}
+[data-skill="5"]>span{
+  width: 50%;
+}
+[data-skill="7"]>span{
+  width: 70%;
 }
 h3{
   margin-bottom: 2rem;
