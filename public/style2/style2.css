@@ -31,5 +31,127 @@ header > div{
 #about{
     opacity: 0.7;
     width: 60%;
+    margin-left: -8rem;
+    margin-bottom: 10rem;
 }
 /* end of Header */
+#competencies > h3 {
+    display: none;
+}
+#competencies {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5.1rem;
+    border-left:solid 2px grey;
+}
+#competencies::before{
+    content: "Compentecies";
+    display: inline-block;
+    position: relative;
+    left: -9rem;
+    top: 6rem;
+    font-weight: bold;
+    font-size: 24px;
+    font-style: italic;
+}
+#competencies > .skills{
+    display: flex;
+    margin-left: 5rem;
+    justify-content: start;
+    align-items: center;
+    column-gap: -1rem;
+}
+#competencies > .skills > .skill {
+    background-color: teal;
+    color: white;
+    padding: 0 1rem ;
+}
+.skill{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#competencies > .skills > [data-skill="5"]::after{
+    content:"\2605 \2605 \2605"
+}
+#competencies > .skills > [data-skill="3"]::after{
+    content:"\2605 \2605"
+}
+#competencies > .skills > [data-skill="1"]::after{
+    content:"\2605"
+}
+#competencies > .skills > [data-skill="9"]::after{
+    content:"\2605 \2605 \2605 \2605 \2605"
+}
+#competencies > .skills > [data-skill="7"]::after{
+    content:"\2605 \2605 \2605 \2605 \2605"
+}
+#experiences{
+    display: flex;
+    flex-direction: column;
+}
+#experiences > h3{
+    display: none;
+}
+#experiences::before{
+    content: "Experineces";
+    display: inline-block;
+    position: relative;
+    left: -5rem;
+    top: 6rem;
+    font-weight: bold;
+    font-size: 24px;
+    font-style: italic;
+}
+.experience-institution{
+    display: none;
+}
+.experience{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: "h4 .experience-details"
+                          "experience-description";
+    border-left:solid 2px grey;
+    margin:0 3.1rem 0 3.1rem;
+}
+.experience-description{
+    width: 80vw;
+    padding-left: 2%;
+}
+.experience-details{
+    color: grey;
+}
+h4{
+    color: teal;
+    font-weight: bold;
+    font-size: 18px;
+}
+#education > h3 {
+    display:none;
+}
+#education::before{
+    content: "Education";
+    display: inline-block;
+    position: relative;
+    left: -5rem;
+    top: 6rem;
+    font-weight: bold;
+    font-size: 24px;
+    font-style: italic;
+}
+#hobbies {
+    display:flex;
+}
+#hobbies > h3{
+    margin-left: -5rem;
+    padding-right: 0rem;
+    font-style: italic;
+
+}
+#hobbies > ul {
+    border-left: solid 2px grey;
+}
+.content{
+    margin-left: 10rem;
+}
