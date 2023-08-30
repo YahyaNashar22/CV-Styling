@@ -179,6 +179,7 @@ h4{
     }
     #competencies > h3{
         margin-bottom: 3rem;
+        width: 7% !important;
     }
     .skills{
         width: 40rem;
