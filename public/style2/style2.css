@@ -43,6 +43,7 @@ header > div{
     flex-direction: column;
     margin-left: 5.1rem;
     border-left:solid 2px grey;
+    width: 100rem;
 }
 #competencies::before{
     content: "Compentecies";
@@ -59,12 +60,12 @@ header > div{
     margin-left: 5rem;
     justify-content: start;
     align-items: center;
-    column-gap: -1rem;
 }
 #competencies > .skills > .skill {
     background-color: teal;
     color: white;
     padding: 0 1rem ;
+    width: 20rem;
 }
 .skill{
     display: flex;
@@ -154,4 +155,68 @@ h4{
 }
 .content{
     margin-left: 10rem;
+}
+@media(max-width:600px){
+    *{
+        margin: 0;
+    }
+    header{margin: 1rem 0 0.5rem 1rem;}
+    figure{
+        display: none;
+    }
+    #about{
+        width: 80vw;
+        margin-left: 2rem;
+    }
+    .content{
+        display:flex;
+        flex-direction: column;
+        margin: 1rem;
+    }
+    #competencies{
+        border: none;
+        margin: 0;
+    }
+    #competencies > h3{
+        margin-bottom: 3rem;
+    }
+    .skills{
+        width: 40rem;
+    }
+    .skill{
+        margin: 1rem;
+        height: 3rem;
+        width: 10rem;
+    }
+    #experiences{
+        display: flex;
+        flex-direction: column;
+    }
+    .experience{
+        border: none;
+    }
+    #experiences> h3, #competencies> h3, #education >h3{
+        display: block;
+        font-style: italic;
+        margin-top: 5rem;
+        border-bottom: solid 1px black;
+        margin-left: 3.2rem;
+        width: 20%;
+    }
+   #hobbies > h3 {
+        margin: 1rem 0;
+        border-bottom: solid 1px black;
+        width:20%;
+        font-size: 24px;
+}
+    #hobbies{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+    #hobbies>ul {padding-left: 5rem;border: none;}
+    #experiences::before, #competencies::before, #education::before{display: none;}
+    .experience>h4{margin: 3rem 0 3rem 0;}
+    .experience-details{margin: 3rem 0 3rem 0;}
+    .experience-date-separator{color: teal;}
 }
