@@ -166,9 +166,35 @@ h4{
 #contact > h3{
     display: none;
 }
+.contact-value{width: 10rem;}
+.contact-phone > .contact-value {
+    background: url("/public/images/phone.png");
+    background-size: 5rem 5rem;
+    height: 5rem;
+    width: 5rem;
+}
+.contact-email > .contact-value {
+    background: url("/public/images/email.png");
+    background-size: 5rem 5rem;
+    height: 5rem;
+    width: 5rem;
+}
+.contact-github > .contact-value {
+    background: url("/public/images/github.png");
+    background-size: 5rem 5rem;
+    height: 5rem;
+    width: 5rem;
+}
+.contact-facebook > .contact-value {
+    background: url("/public/images/facebook.png");
+    background-size: 5rem 5rem;
+    height: 5rem;
+    width: 5rem;
+}
 dd img{
     width: 5rem;
     height: 5rem;
+    display: none;
 }
 @media(max-width:600px){
     *{
