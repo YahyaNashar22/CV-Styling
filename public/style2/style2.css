@@ -156,6 +156,20 @@ h4{
 .content{
     margin-left: 10rem;
 }
+.contact-skype{
+    display: none;
+}
+.contact-type{display: none;}
+.contacts{
+    display: flex;
+}
+#contact > h3{
+    display: none;
+}
+dd img{
+    width: 5rem;
+    height: 5rem;
+}
 @media(max-width:600px){
     *{
         margin: 0;
